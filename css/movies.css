@@ -8,7 +8,11 @@
    border-color:  rgb(212, 35, 56);
 }
 .inner{
-    width: 564px;
+    width: 600px;
+
+}
+.border-left{
+    display: flex;
 }
 
 .dates:hover{
@@ -22,7 +26,7 @@
 
 .price-som{
     font-weight: 500;
-    text-decoration: underline !important;
+    text-decoration: underline;
 }
 .details{
     width: 30px;
@@ -31,7 +35,18 @@
     align-items: center;
     display: flex;
     height: 35px;
-    gap: 8px;
+    gap: 12px;
+    box-sizing: border-box;
+
+}
+.movie-info{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    height: 100%;
+    padding: 6px;
+    text-align: center;
 
 }
 .movies p{
@@ -40,8 +55,17 @@
     align-items: center;
     height: 100%;
 }
+.movie-info img{
+    height: 300px;
+    width: 189px;
+}
 .name{
-    width:300px ;
+    width:325px ;
     margin-left: 20px;
     color: white;
 }
+
+.movie-info div{
+    width: fit-content;
+}
+
